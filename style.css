@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before{
+    box-sizing: inherit;
+} */
+
+
+/* ================ Start Header Area ================= */
+header {
+    background: tomato;
+}
+
+
+/* ================ End Header Area ================= */
