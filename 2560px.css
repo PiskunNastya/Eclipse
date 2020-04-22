@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ================ Start margin ================= */
+.header, .banner-block {
+    width: 50%;
+    margin: 0 25%;
+    padding: 2rem;
+}
+
+
+/* ================ End margin ================= */
+
+
+/* ================ Start Header Area ================= */
+
+@media(max-width:2560px){
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.header__oll-elem-manu {
+    list-style: none;
+    display: flex;
+}
+
+.header__elem-manu-link {
+    text-decoration: none;
+    padding-left: 2rem;
+    color: white;
+    font-weight: 800;
+}
+}
+/* ================ End Header Area ================= */
+
+
+
+
+
+/* ================ Start banner Area ================= */
+@media(max-width:2560px){
+.main {
+    background: url(img/home-banner-bg.png) no-repeat;
+    background-size: cover;
+}
+
+.banner-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1040px;
+}
+
+.banner__block-text {
+    width: 400px;
+    height: 400px;
+    background: burlywood;
+}
+}
+/* ================ End banner Area ================= */

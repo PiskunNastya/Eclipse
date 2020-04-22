@@ -36,24 +36,43 @@
 
 
 /* ================ Start margin ================= */
-.header {
-    position: absolute;
-    width: 1140px;
-    height: 30px;
-    margin: 0 auto;
-    top: 35px;
-    left: 0;
-    right: 0;
-    bottom: 0;
+
+@media(max-width:2560px){
+    .header {
+        position: absolute;
+        width: 1140px;
+        height: 30px;
+        margin: 0 auto;
+        top: 35px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .banner-block {
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    } 
 }
 
-.banner-block {
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-} 
+@media(max-width:1440px){
+ 
+    .header {
+        width: 1140px;
+        margin: 0 auto;
+    }
+    
+    .banner-block {
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    } 
+}
 
 @media(max-width:1024px){
     .header {
@@ -70,19 +89,6 @@
     } 
 }
 
-@media(max-width: 425px){
-    .header {
-        width: 1024px;
-    }
-    
-    .banner-block {
-        margin: auto;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-    } 
-}
 /* ================ End margin ================= */
 
 
@@ -212,7 +218,7 @@
         background: url(img/home-banner-bg.png) no-repeat;
         background-size: cover;  /* Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока. */
         height: 1200px;
-        max-width: 2560px;
+        /* max-width: 2560px; */
     }
 
     .banner-block {
